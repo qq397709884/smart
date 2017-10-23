@@ -40,7 +40,7 @@ public class CustomerServiceTest {
     @Test
     public void getCustomerTest() {
         long id = 1;
-        Customer customer = customerService.getCustomer(1);
+        Customer customer = customerService.getCustomer(2);
         Assert.assertNotNull(customer);
     }
 
