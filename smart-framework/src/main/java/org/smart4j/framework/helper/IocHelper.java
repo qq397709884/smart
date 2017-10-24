@@ -1,9 +1,10 @@
-package org.smart4j.chapter3.helper;
+package org.smart4j.framework.helper;
 
-import org.smart4j.chapter3.annotation.Inject;
-import org.smart4j.chapter3.utils.ArrayUtil;
-import org.smart4j.chapter3.utils.CollectionUtil;
-import org.smart4j.chapter3.utils.ReflectionUtil;
+
+import org.smart4j.framework.annotation.Inject;
+import org.smart4j.framework.utils.ArrayUtil;
+import org.smart4j.framework.utils.CollectionUtil;
+import org.smart4j.framework.utils.ReflectionUtil;
 
 import java.lang.reflect.Field;
 import java.util.Map;
@@ -23,7 +24,7 @@ public final class IocHelper {
                 Class<?> beanClass = beanEntity.getKey();
                 //当前类实例
                 Object objInstance = beanEntity.getValue();
-                //当前类的字段
+                //当前类所有的字段
                 Field[] beanFileds = beanClass.getDeclaredFields();
                 if (ArrayUtil.isNotEmpty(beanFileds)) {
                     //遍历字段

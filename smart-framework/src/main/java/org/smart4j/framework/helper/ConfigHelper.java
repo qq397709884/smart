@@ -1,7 +1,8 @@
-package org.smart4j.chapter3.helper;
+package org.smart4j.framework.helper;
 
-import org.smart4j.chapter3.ConfigConstant;
-import org.smart4j.chapter3.utils.PropsUtils;
+
+import org.smart4j.framework.ConfigConstant;
+import org.smart4j.framework.utils.PropsUtils;
 
 import java.util.Properties;
 

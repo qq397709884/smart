@@ -1,4 +1,4 @@
-package org.smart4j.chapter3.annotation;
+package org.smart4j.framework.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -8,7 +8,8 @@ import java.lang.annotation.Target;
 /**
  * Created by asus on 2017/10/23.
  */
-@Target(ElementType.FIELD)
+@Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Inject {
+public @interface Controller {
+
 }

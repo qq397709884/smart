@@ -1,4 +1,4 @@
-package org.smart4j.chapter3.annotation;
+package org.smart4j.framework.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

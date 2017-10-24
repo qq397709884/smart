@@ -1,4 +1,4 @@
-package org.smart4j.chapter3.utils;
+package org.smart4j.framework.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,6 +8,7 @@ import java.lang.reflect.Method;
 
 /**
  * Created by asus on 2017/10/23.
+ * 反射工具类
  */
 public class ReflectionUtil {
 

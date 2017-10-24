@@ -1,4 +1,4 @@
-package org.smart4j.chapter3;
+package org.smart4j.framework;
 
 /**
  * Created by asus on 2017/10/23.
