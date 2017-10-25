@@ -1,7 +1,5 @@
-package org.smart4j.chapter3.utils;
+package org.smart4j.framework.utils;
 
-
-import com.sun.deploy.util.StringUtils;
 
 /**
  * Created by asus on 2017/10/22.

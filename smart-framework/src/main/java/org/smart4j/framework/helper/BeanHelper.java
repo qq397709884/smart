@@ -1,6 +1,7 @@
-package org.smart4j.chapter3.helper;
+package org.smart4j.framework.helper;
 
-import org.smart4j.chapter3.utils.ReflectionUtil;
+
+import org.smart4j.framework.utils.ReflectionUtil;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,9 +9,12 @@ import java.util.Set;
 
 /**
  * Created by asus on 2017/10/23.
+ * Bean 容器助手类
  */
 public final class BeanHelper {
-
+    /**
+     * 定义bean 映射 用于存放BEAN类与bean实例的映射关系
+     */
     private static final Map<Class<?>, Object> BEAN_MAP = new HashMap<Class<?>, Object>();
 
     static {

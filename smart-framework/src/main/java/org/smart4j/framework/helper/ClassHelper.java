@@ -1,9 +1,10 @@
-package org.smart4j.chapter3.helper;
+package org.smart4j.framework.helper;
 
-import org.smart4j.chapter3.ConfigConstant;
-import org.smart4j.chapter3.annotation.Controller;
-import org.smart4j.chapter3.annotation.Service;
-import org.smart4j.chapter3.utils.ClassUtil;
+
+import org.smart4j.framework.ConfigConstant;
+import org.smart4j.framework.annotation.Controller;
+import org.smart4j.framework.annotation.Service;
+import org.smart4j.framework.utils.ClassUtil;
 
 import java.util.HashSet;
 import java.util.Set;
